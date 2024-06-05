@@ -98,4 +98,6 @@ def main():
     # Расчет примерного расстояния, которое пройдет цена
     price_range = max(close_prices) - min(close_prices)
     print(f"Approximate price range: {price_range}")
-    logging.info(f"Approximate price range: {price_range
+    print(f"Approximate price range: {price_range}")
+    logging.info(f"Approximate price range: {price_range}")
+
